@@ -37,7 +37,7 @@ HOME    = ADDON.getAddonInfo('path')
 ARTWORK = os.path.join(HOME, 'resources', 'artwork')
 ICON    = os.path.join(HOME, 'icon.png')
 TITLE   = 'Watch Cartoon Online'
-VERSION = '1.0.0'
+VERSION = '1.0.6'
 URL     = 'http://www.watchcartoononline.com/'
 
 
@@ -56,7 +56,7 @@ def CheckVersion():
 
     ADDON.setSetting('VERSION', curr)
 
-    if curr == '1.0.0':
+    if curr == '1.0.6':
         d = xbmcgui.Dialog()
         d.ok(TITLE + ' - ' + VERSION, '', 'Welcome to Watch Cartoon Online', '')
 
